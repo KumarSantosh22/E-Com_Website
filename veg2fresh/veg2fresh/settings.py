@@ -56,7 +56,7 @@ ROOT_URLCONF = 'veg2fresh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Veg2Fresh/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
